@@ -1,7 +1,7 @@
-<img src="https://img.freepik.com/free-vector/calculator_53876-80293.jpg?size=338&ext=jpg" align="right" width="250"/>
+<img src="Calculator%20banner.png?raw=true" align="right" width="400"/>
 
 # Challenge 1 - Project-Calc 
-![](https://img.shields.io/badge/test-msg-blue?style=for-the-badge&logo=appveyor)
+![](https://img.shields.io/badge/difficulty-easy-blue?style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/ChallengedDev/Project-Calc?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ChallengedDev/Project-Calc?style=for-the-badge)
 
