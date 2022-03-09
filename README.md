@@ -1,5 +1,4 @@
 
-<!-- # Challenge 1 - Project-Calc  -->
 
 #Simple calculator
 This calculator was built using HTML and CSS (design) and Javascript (functionality) as per the ChallengeDev requirements. It is important to state that the web interface is not yet mobile responsive as it is for a challenge but this issue will be addressed shortly.
