@@ -1,4 +1,3 @@
-<img src="Calculator%20banner.png?raw=true" align="right" width="400"/>
 
 <!-- # Challenge 1 - Project-Calc  -->
 
