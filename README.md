@@ -19,13 +19,13 @@ the standard `keyboard input` but not both in thesame field as it would result t
 - `Modulo` operation
 - Accepts both keyboard and mouse input
 
-##The Numberpad caveat
+## The Numberpad caveat
 The numberpad has a bit of an issue when entering `negative` or `decimal` numbers. Say you're 
 trying to enter `-8` with the numberpad. When you hit on the `-` on the numberpad, it stays blank. 
 Don't fret, just enter the number to be negated. So to say, `-`, then `8` will yield `-8` in that input
 field. Same goes for the `float` values. 
 
-##Info text field
+## Info text field
 This field will display any possible errors in case of `erratic` or `unsupported` value entries.
 ## Functions
 The calculator offers the following functions:
