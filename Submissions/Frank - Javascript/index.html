@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div id="container">
+      <div><h1 class="heading">Simple Calculator</h1>
+    
+    <p class="warning">**Either type the numbers or use the numberpad, don't mix them!!**</p>
+        <span class="redirect">Go <a href="https://google.com" target="_blank">here</a> for documentation (how to use)</span>
+</div>
+
+      <fieldset id="field">
+        <div class="replay" draggable="true"></div>
+        <div class="input">
+          <div class="inputs">
+            <div class="x">
+              <input
+                type="number"
+                class="input0"
+                placeholder="num1"
+                name="left"
+                step="0.01"
+                min="-9999999999"
+              />
+            </div>
+            <div class="x">
+              <input type="text" class="input1" disabled placeholder="sign" />
+            </div>
+            <div class="x">
+              <input
+                type="number"
+                class="input3"
+                placeholder="num2"
+                name="right"
+                step="0.01"
+                min="-9999999999"
+              />
+            </div>
+            <div class="x">
+              <input type="text" class="input4" disabled placeholder="=" />
+            </div>
+            <div class="x">
+              <input type="text" id="input2" placeholder="ans" disabled />
+            </div>
+          </div>
+
+          <div class="info">Info text here.</div>
+        </div>
+        <div id="board">
+          <div id="numbers">
+            <div class="number" value="1">1</div>
+            <div class="number" value="2">2</div>
+            <div class="number" value="3">3</div>
+            <div class="number" value="4">4</div>
+            <div class="number" value="5">5</div>
+            <div class="number" value="6">6</div>
+            <div class="number" value="7">7</div>
+            <div class="number" value="8">8</div>
+            <div class="number" value="9">9</div>
+            <div class="number" value="0">0</div>
+            <div class="number" value=".">.</div>
+            <div class="number" value="-">-</div>
+          </div>
+
+          <div id="functions">
+            <div id="add" class="function">+</div>
+            <div id="subtract" class="function">-</div>
+            <div id="divide" class="function">/</div>
+            <div id="multiply" class="function">*</div>
+
+            <div id="percentage" class="function">%</div>
+            <div id="history" class="function">History</div>
+
+            <div id="reset" class="function">Reset</div>
+          </div>
+        </div>
+      </fieldset>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
