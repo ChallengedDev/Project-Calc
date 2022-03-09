@@ -1,37 +1,86 @@
-<img src="Calculator%20banner.png?raw=true" align="right" width="400"/>
 
-# Challenge 1 - Project-Calc 
-![](https://img.shields.io/badge/difficulty-easy-blue?style=for-the-badge)
-![GitHub contributors](https://img.shields.io/github/contributors/ChallengedDev/Project-Calc?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/ChallengedDev/Project-Calc?style=for-the-badge)
 
-In this very first challenge, you are going to build a simple calculator in your favourite language. 
+# Simple calculator
+This calculator was built using HTML and CSS (design) and Javascript (functionality) as per the ChallengeDev requirements. It is important to state that the web interface is not yet mobile responsive as it is for a challenge but this issue will be addressed shortly.
 
-Building a calculator is a brilliant project, especially if you are new to development. It's relatively simple and small in scope yet contains features that will provide an exploration of several key elements of the language you are learning.
+### Caution!!
+There are two ways of inputing values: `The numberpad` or normal `keyboard input`.
+These input types are to be used separately (per input field) and should not be mixed.
+For example in the `num1` input field you could use the `numberpad` and in the `num2`
+the standard `keyboard input` but not both in thesame field as it would result to bugs.
 
-## Requirements
-- Written in a language of your choosing
+## Features
+- Written in javascript
 - A web-based interface
-- Standard `addition`, `subtraction`, `division` and  `multiplication` features
-
-
-## Bonus Points
-- Memory buttons
-- History
-- Percentage function
+- Standard `addition`, `subtraction`, `division` and  `multiplication`
+- `Memory` (displays automatically)
+- `History`
+- `Reset`
+- `Modulo` operation
 - Accepts both keyboard and mouse input
 
-## Submissions
-The great thing with web development is there are often many different ways to achieve the same thing. Submit your solution to allow others to benefit from exploring your solution to the challenge. 
+## The Numberpad caveat
+The numberpad has a bit of an issue when entering `negative` or `decimal` numbers. Say you're 
+trying to enter `-8` with the numberpad. When you hit on the `-` on the numberpad, it stays blank. 
+Don't fret, just enter the number to be negated. So to say, `-`, then `8` will yield `-8` in that input
+field. Same goes for the `float` values. 
 
-To submit your solution: 
-1. Firstly, you will want to Fork and clone this repository to your local machine and then create a branch to create your changes within.  This [guide](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/) should help if you need a little guidance with Git and Github. 
-2. Inside the submission directory, create a directory with the naming convention of `Your Name - Language Used` and create your calculator within this directory.
-3. Commit and push your changes back to your fork and then create a pull request. 
+## Info text field
+This field will display any possible errors in case of `erratic` or `unsupported` value entries.
+## Functions
+The calculator offers the following functions:
 
-Your submission will then be reviewed and merged. In the mean time be sure to check out the other solutions and follow [Challenged_Dev](https://twitter.com/Challenged_Dev) on twitter for future challenges. 
+#### Addition `+`
+This operation returns the sum of two numbers. How to use:
+1. Enter first number (`num1`)
+2. Enter second number (`num2`)
+3. Click on the `+` sign to get result.
 
-## Resources
-- Creating Pull Requests - [Video Guide](https://dev.to/therealdanvega/how-to-create-a-pull-request-by-submitting-your-first-pull-request-to-github-5ai9) and [Article Guide](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/)
-- Javascript Calculators - [Web Dev Simplified Video](https://www.youtube.com/watch?v=j59qQ7YWLxw) and [Online Tutorials Video](https://www.youtube.com/watch?v=BuZtAqk5LIY)
-- Python Guide - [Part 1](https://medium.com/@alanbanks229/part-1-of-2-introduction-to-python-flask-20286f37d2e0) and [Part 2](https://medium.com/@alanbanks229/part-2-of-2-introduction-to-python-flask-29b58adbabaf)
+If either input field is left empty, this operator considers it to be zero.
+#### Subtraction `-`
+This operation returns the difference between two numbers. How to use:
+1. Enter first number (`num1`)
+2. Enter second number (`num2`)
+3. Click on the `-` sign (on right hand side) to get result.
+
+If either input field is left empty, it will have thesame behavior as in the case of  addition.
+#### Division `/`
+This operation returns the quotient between two numbers. How to use:
+1. Enter numerator (`num1`)
+2. Enter denominator  (`num2`)
+3. Click on the `/` sign to get quotient.
+
+If `num1` input field is left empty, this operator considers it to be zero.
+!! Denominator (`num2`) must be a non-zero number .
+#### Multiplication `*`
+This operation returns the product of two numbers. How to use:
+1. Enter first number (`num1`)
+2. Enter second number (`num2`)
+3. Click on the `*` sign to get result.
+
+If either input field is left empty, this operator considers it to be zero.
+#### Modulo `%`
+This operation returns the modulo between two numbers. How to use:
+1. Enter  number (`num1`)
+2. Enter modulo (`num2`)
+3. Click on the `%` sign to get result (`num1` mod `num2`).
+
+Both numbers must be positive.
+`num2` can take the value `0`.
+#### History `History`
+This returns a list of all recent calculations.
+Just hit the `History` button.
+
+#### Reset `Reset`
+This operation sets all input fields to their default values. How to use:
+Just hit the `Reset` button.
+
+#### Support 
+I have to equally mention that I am open to any ideas or bug reports, just create and issue.
+Thank you.
+
+
+
+
+
+
