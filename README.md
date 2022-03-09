@@ -1,9 +1,9 @@
 
 
-#Simple calculator
+# Simple calculator
 This calculator was built using HTML and CSS (design) and Javascript (functionality) as per the ChallengeDev requirements. It is important to state that the web interface is not yet mobile responsive as it is for a challenge but this issue will be addressed shortly.
 
-###Caution!!
+### Caution!!
 There are two ways of inputing values: `The numberpad` or normal `keyboard input`.
 These input types are to be used separately (per input field) and should not be mixed.
 For example in the `num1` input field you could use the `numberpad` and in the `num2`
